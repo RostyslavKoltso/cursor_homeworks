@@ -1,0 +1,10 @@
+let a = 15.678;
+let b = 123.965;
+let c = 90.2345;
+alert(Math.max(a,b,c));
+alert(Math.min(a,b,c));
+let sum = a+b+c;
+alert(sum);
+alert(Math.floor(sum));
+let d = 160;
+alert(Math.ceil10(d));
