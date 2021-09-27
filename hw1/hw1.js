@@ -56,4 +56,4 @@ document.write('<br>' + pay.toFixed(2) + ' ' + 'до оплати');
 //рази нижче їх ціни?
 const sumC = c / 2;
 let profit = pay -sumC;
-document.write(profit);
+document.write('<br>' + profit);
