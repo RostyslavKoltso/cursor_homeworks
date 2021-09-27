@@ -1,6 +1,6 @@
-let a = 15.678;
-let b = 123.965;
-let c = 90.2345;
+const a = 15.678;
+const b = 123.965;
+const c = 90.2345;
 
 //Використовуючи вбудований об'єкт Math – виведіть максимальне число
 document.write(Math.max(a,b,c));
@@ -9,7 +9,7 @@ document.write(Math.max(a,b,c));
 document.write('<br>' + Math.min(a,b,c));
 
 //Складіть вартість всіх товарів, помістіть її в змінну та виведіть цю суму
-let sum = a+b+c;
+const sum = a+b+c;
 document.write('<br>' + sum);
 
 //Відкиньте копійки у всіх товарів, потім – складіть цілу частину вартості кожного товару між собою. 
@@ -29,12 +29,12 @@ else {
 }
 
 //Виведіть суму решти, при оплаті всіх товарів (без округлення), якщо клієнт платить 500 грн.
-let payment = 500;
+const payment = 500;
 let surrender = payment - sum;
 document.write('<br>' + surrender);
 
 //Виведіть середнє значення цін, округлене до другого знаку після коми
-let value = (a + b + c) / 3;
+const value = (a + b + c) / 3;
 document.write('<br>' + value.toFixed(2));
 
 //Створіть змінну, в якій збережіть випадкову знижку (використовуйте функцію Math.random).
@@ -54,4 +54,6 @@ document.write('<br>' + pay.toFixed(2) + ' ' + 'до оплати');
 
 //Виведіть чистий прибуток, якщо клієнт заплатив зі знижкою та собівартість товарів рівно в два 
 //рази нижче їх ціни?
-let t = 10;
+const sumC = c / 2;
+let profit = pay -sumC;
+document.write(profit);
